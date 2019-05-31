@@ -1,13 +1,61 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+    font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+
+h4 {
+    color: #00bfa5;
+    text-align: center;
+}
+
+.title {
+    margin-bottom: 0;
+    text-align: center;
+    letter-spacing: 7px;
+    color: #CFD8DC;
+    font-size: 45px;
+    background: #455A64;
+}
+
+.memory {
+    background: #263238;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 3px solid #90a4ae;
+}
+
+.subName{
+    background: #263238;
+    font-size: 14px;
+    align-items: center;
+    justify-content: center;
+    border: 3px solid #90a4ae;
+}
+
+.cpu {
+    background: #263238;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 3px solid #90a4ae;
+}
+
+.disk {
+    background: #263238;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 3px solid #90a4ae;
+}
+
+.titleCard {
+    color: whitesmoke;
+    font-size: 50px;
 }
